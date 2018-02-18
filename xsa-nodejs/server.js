@@ -30,6 +30,7 @@ xsjs(options).listen(port);
 
 console.log("Server listening on port %d", port);
 
+//Make a POST requst to Hyperldger Fabric REST Server to do a transaction (sets sensor temperature to 19)
 var request = require('request');
 
 	var options = {
